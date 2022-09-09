@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#topContainer{
+    background-color: blue;
+    padding: 150px;
+    /* width: 80px; */
+    margin: auto;
+}
+
+#bottomContainer{
+    padding: 150px;
+    display: flex;
+    gap: 200px;
+    margin: auto;
+    
+}
+.firstDiv{
+    background-color: aqua;
+    padding: 100px;
+}
+.secondDiv{
+    background-color: black;
+    padding: 100px;
+    color: white;
+}
