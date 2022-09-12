@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.landing{
+    height: 80vh;
+    background-color: #f06457;
+}
+.landing::after{
+    content: "Hellloooooooooooooooooooooo";
+    height: 200px;
+    width: 200px;
+    background-color:  #F16C55;
+    color: black ;
+
+
+}
