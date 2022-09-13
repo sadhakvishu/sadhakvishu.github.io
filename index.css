@@ -166,6 +166,64 @@ header{
 		width: calc(250px * 17);
 	}
 
+    .contactMe{
+        background-color: #2B313D;
+    }
+    .contact,.form{
+        display: flex;
+        width: 50%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .contact h1{
+        text-align: center;
+        color: #D4CEC2;
+        padding: 10vh 0;
+        font-size: 4rem;
+        font-family: calluna-sans, Helvetica, "Helvetica Neue", Arial;
+        font-weight: 900;
+        font-size: 4rem;
+
+    }
+    .contact p{
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        color: #D4CEC2;
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-top: -2.5rem;
+        padding-top: 0rem;
+    }
+    .form{
+        width: 80%;
+        gap: 2rem;
+        padding: 05.5rem 0;
+        
+    }
+    .form input,textarea{
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        background-color: #EBEFF3;
+    }
+    .form input:last-child{
+        background-color: #56617A;
+        color: #F16856;
+        font-weight: 700;
+        font-size: 1.5rem;
+        border: transparent;
+        transition: 0.35s  all ease;
+    }
+    .form input:last-child:hover{
+        background-color: #F16856;
+        color: #E3E3E3;
+        cursor: pointer;
+    }
+
+
+
+
 @media all and (max-width: 920px)  {
     body{
         width: 100%;
