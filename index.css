@@ -49,7 +49,7 @@ header{
 }
 
 .landing{
-    height: 78vh;
+    height: 88vh;
     background-color: #F16856;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 16px 6px 0px;
     position: relative;
@@ -58,7 +58,7 @@ header{
 .landing>h1,p,span{
     color: #F7F7F7;
     text-align: center;
-    padding-top: 25vh;
+    padding-top: 40vh;
     font-size: 5rem;
 }
 .landing span{
@@ -102,14 +102,14 @@ header{
 .about{
     background-color: #F7F7F7;
     width: 100%;
+    padding: 2rem 0rem;
 }
 .dp{
     border-radius: 50%;
     display: block;
     margin: auto;
-    padding: 4rem 0rem; 
     width: 90%;
-    max-width: 612px;
+    max-width: 412px;
 }
 .about h1{
     text-align: center;
@@ -117,9 +117,13 @@ header{
     font-family: calluna-sans, Helvetica, "Helvetica Neue", Arial;
     font-weight: 900;
     font-size: 4rem;
+    padding: 2rem 0;
 }
 .about p{
     text-align: center;
+    padding-top: 4rem;
+    width: 60%;
+    margin: auto;
     color: #9CA9BD;
     font-weight: 400;
     font-size: 1.5rem;
