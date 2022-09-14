@@ -292,7 +292,9 @@ header{
     .landing::after{
         right: 47%;
     }
-  
+    .project{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 @media all and (max-width:700px){
     body{
@@ -317,4 +319,5 @@ header{
     .landing h1{
         font-size: 2.2rem;
     }
+
 }
