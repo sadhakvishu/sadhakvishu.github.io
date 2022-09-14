@@ -295,6 +295,32 @@ header{
     .project{
         grid-template-columns: repeat(1,1fr);
     }
+    .contact h1{
+        font-size: 2rem;
+
+    }
+
+    .form{
+        width: 100%;
+        gap: 2rem;
+         padding: 05.5rem 0; 
+        
+    }
+    .form input,textarea{
+        padding: 1rem;
+        font-size: 1rem;
+        border-radius: 10px;
+        background-color: #EBEFF3;
+    }
+    .form input:last-child{
+        background-color: #56617A;
+        color: #F16856;
+        font-weight: 700;
+        font-size: 1.0rem;
+        border: transparent;
+        transition: 0.35s  all ease;
+    }
+
 }
 @media all and (max-width:700px){
     body{
@@ -319,5 +345,13 @@ header{
     .landing h1{
         font-size: 2.2rem;
     }
-
+    .details:last-child p{
+        margin-top: 1rem;
+    }
+    .projects .fa-github{
+     
+       top: 4.2rem;
+       
+       margin-bottom: 1rem;
+    }
 }
