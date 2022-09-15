@@ -7,6 +7,9 @@
     <title>Vishal Bhargava</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
+    
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 </head>
 <body>
      <!-- HEADER SECTION  -->
@@ -191,6 +194,21 @@
                
         </div>
     </section>
+
+<div class="calendarDiv">
+
+    <h1>Statistics
+
+    </h1>
+   
+        <div class="calendar">
+            <!-- Loading stuff -->
+            <!-- Loading the data just for you. -->
+            
+        </div>
+</div>
+
+
     <section class="contactMe">
         <div class="contact">
             <h1>CONTACT</h1> 
@@ -229,4 +247,10 @@
         </div>
     </footer>
 </body>
+
+<script >
+GitHubCalendar(".calendar", "sadhakvishu", { responsive: true,global_stats:false,tooltips: true});
+</script>
+
+
 </html>

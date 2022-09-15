@@ -509,9 +509,9 @@
         }
        
         .stack{
-            width: 60%;
+            width: 30%;
             
-            grid-template-columns: repeat(1,70%);
+            grid-template-columns: repeat(1,100%);
             justify-content: space-between;
             
         }
@@ -541,4 +541,31 @@
             align-items: center;
             gap: 3rem;
         }
+    }
+
+
+    .calendarDiv{
+        /* border: 10px solid red; */
+        background-color: #F7F7F7;
+        color: #56617A;
+        text-align: center;
+        padding-bottom: 4rem;
+
+    }
+    .calendarDiv h1{
+        font-size: 5rem;
+        padding: 2rem;
+    }
+
+    .calendar{
+        width: 85%;
+        margin: auto;
+        background-color: #F7F7F7;
+        border: 1px solid #2B313D;
+        padding: 4rem;
+        border: none;
+        
+    }
+    .abra{
+        color: #E3E3E3;
     }
