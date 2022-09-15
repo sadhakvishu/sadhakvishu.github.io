@@ -188,6 +188,43 @@ header{
     /* padding: 50px; */
 }
 
+.footerSection{
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.footer .left{
+    display: flex;
+    justify-content: space-around;
+}
+.footer .left .fa-envelope, .fa-phone{
+    color: #56617A;
+   transition: .25s all ease-in-out;
+}
+.footer .fa-envelope:hover, .fa-phone:hover{
+    color: #F16856;
+    cursor: pointer;
+}
+
+.footer .right{
+    display: flex;
+    justify-content: space-around;
+}
+.footer .right .fa-github, .fa-linkedin{
+    color: #56617A;
+   transition: .25s all ease-in-out;
+}
+.footer .fa-github:hover , .fa-linkedin:hover{
+    color: #F16856;
+    cursor: pointer;
+}
+
 @keyframes scroll {
 	0% { transform: translateX(0); }
 	100% { transform: translateX(calc(-250px * 9))}
