@@ -201,43 +201,7 @@
     }
 
 
-    .footerSection{
-        width: 90%;
-        margin: auto;
-        padding: 2rem;
-    }
-
-    .footer {
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        
-    }
-    .footer .left{
-        display: flex;
-        justify-content: space-around;
-    }
-    .footer .left .fa-envelope, .fa-phone{
-        color: #56617A;
-    transition: .25s all ease-in-out;
-    }
-    .footer .fa-envelope:hover, .fa-phone:hover{
-        color: #F16856;
-        cursor: pointer;
-    }
-
-    .footer .right{
-        display: flex;
-        justify-content: space-around;
-    }
-    .footer .right .fa-github, .fa-linkedin{
-        color: #56617A;
-    transition: .25s all ease-in-out;
-    }
-    .footer .fa-github:hover , .fa-linkedin:hover{
-        color: #F16856;
-        cursor: pointer;
-    }
-
+    
     .techstack {
         align-items: center;
         background: #F7F7F7;
@@ -391,9 +355,74 @@
         color: #E3E3E3;
         cursor: pointer;
     }
+    
+    
+    
+    .footerSection{
+        width: 90%;
+        margin: auto;
+        padding: 2rem;
+    }
 
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .footer .left{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer .left .fa-envelope, .fa-phone{
+        color: #56617A;
+    transition: .25s all ease-in-out;
+    }
+    .footer .fa-envelope:hover, .fa-phone:hover{
+        color: #F16856;
+        cursor: pointer;
+    }
 
+    .footer .right{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer .right .fa-github, .fa-linkedin{
+        color: #56617A;
+    transition: .25s all ease-in-out;
+    }
+    .footer .fa-github:hover , .fa-linkedin:hover{
+        color: #F16856;
+        cursor: pointer;
+    }
+    .footer .right .fa-envelope{
+        color: #56617A;
+        margin-bottom: 1rem;
+        size: 1rem;
+    }
+   
+    .footer .right a:nth-child(2){
+        text-decoration: none;
+        color: #56617A;
+        
+    }
+  
+    .footer .right a:nth-child(2):hover{
+        cursor:default;
+    }
 
+    .footer .right a:nth-child(2) .fa-phone {
+        padding-left: 2rem;
+    }
+
+    .footer .right a:nth-child(2):hover .fa-phone {
+        cursor: default;
+        color: #56617A;
+    }
+    .footer .right a:nth-child(2):hover .fa-envelope {
+        cursor: default;
+        color: #56617A;
+    }
+    
 
     @media all and (max-width: 920px)  {
         body{
@@ -504,4 +533,12 @@
              margin-left: -1.5rem;
 
          }
+
+         .footer .right{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            gap: 3rem;
+        }
     }
