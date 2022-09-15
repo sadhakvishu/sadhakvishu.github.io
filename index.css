@@ -422,21 +422,57 @@
         cursor: default;
         color: #56617A;
     }
-    
+    .calendarDiv{
+        /* border: 10px solid red; */
+        background-color: #F7F7F7;
+        color: #56617A;
+        text-align: center;
+        padding-bottom: 4rem;
+
+    }
+    .calendarDiv h1{
+        font-size: 5rem;
+        padding: 2rem;
+    }
+
+    .calendar{
+        width: 85%;
+        margin: auto;
+        background-color: #F7F7F7;
+        border: 1px solid #2B313D;
+        padding: 4rem;
+        border: none;
+        
+    }
+    .abra{
+        color: #E3E3E3;
+    }
 
     @media all and (max-width: 920px)  {
         body{
             width: 100%;
             margin: auto;
         }
+        .logo{
+            display:none;
+        }
         .header{
-            width: 100%;
-            margin: auto;
+            display: flex;
+           
             justify-content: space-around;
+            align-items: center;
+            width: 85%;
+            margin: auto;
         }
-        .header li{
-            padding: 1.2rem;
+        
+        .navbar li{
+            padding: 1rem;
+            font-weight: 400;
+            font-size: 2.5rem;
+            border-bottom: 1px solid transparent;
         }
+    
+        
         .landing h1{
             font-size: 4.2rem;
         }
@@ -484,8 +520,14 @@
         .header{
             width: 85%;
             margin: auto;
-            grid-template-columns: 100%;
-            justify-content: space-around;
+            /* grid-template-columns: 100%;
+            justify-content: space-around; */
+        }
+        .header{
+            display: flex;
+        }
+        .header li{
+            font-size: 1rem;
         }
         .landing::after{
             right: 43%;
@@ -541,31 +583,29 @@
             align-items: center;
             gap: 3rem;
         }
+
+        .calendarDiv{
+          
+            padding-bottom: 0rem;
+    
+        }
+        .calendarDiv h1{
+            font-size: 2rem;
+            padding: 0rem;
+        }
+    
+        .calendar{
+            width: 100%;
+            margin: auto;
+            background-color: #F7F7F7;
+            border: 1px solid #2B313D;
+            padding: 0rem;
+            border: none;
+            
+        }
+        .abra{
+            color: #E3E3E3;
+        }
     }
 
 
-    .calendarDiv{
-        /* border: 10px solid red; */
-        background-color: #F7F7F7;
-        color: #56617A;
-        text-align: center;
-        padding-bottom: 4rem;
-
-    }
-    .calendarDiv h1{
-        font-size: 5rem;
-        padding: 2rem;
-    }
-
-    .calendar{
-        width: 85%;
-        margin: auto;
-        background-color: #F7F7F7;
-        border: 1px solid #2B313D;
-        padding: 4rem;
-        border: none;
-        
-    }
-    .abra{
-        color: #E3E3E3;
-    }
