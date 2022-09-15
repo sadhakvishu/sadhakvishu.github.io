@@ -19,10 +19,15 @@
     }
     .header .logo{
         height:4rem;
+    
     }
     .header img{
         width:200%;
         height: 100%;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: #99A0B0;
     }
     .navbar ul{
         display: flex;
