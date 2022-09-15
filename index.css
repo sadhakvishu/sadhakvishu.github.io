@@ -138,7 +138,29 @@
         color: #F16856;
         cursor: pointer;
     }
+    .projects .fa-link{
+        color: #F7F7F7;
+    position: absolute;
+    right: 4rem;
+    top: 2.5rem;
+    transition: .25s all ease-in-out;
+    }
+    .projects .fa-link:hover{
+        color: #F16856;
+        cursor: pointer;
+    }
 
+    .projects .details .technology{
+        font-family: monospace;
+        font-size: 1rem;
+        text-align: justify;
+        padding: 0;
+        color: #EBEFF3;
+        /* padding-bottom: 1rem; */
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
     .project .details p{
         font-size: 1.5rem;
         text-align: justify;
@@ -452,6 +474,11 @@
             top: 4.2rem;
             margin-bottom: 1rem;
         }
+        .projects .fa-link{ 
+            right: 4.2rem;
+            top: 4.8rem;
+        }
+       
         .stack{
             width: 60%;
             
