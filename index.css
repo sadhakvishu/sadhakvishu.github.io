@@ -449,9 +449,32 @@
             margin-top: 1rem;
         }
         .projects .fa-github{
-        
-        top: 4.2rem;
-        
-        margin-bottom: 1rem;
+            top: 4.2rem;
+            margin-bottom: 1rem;
         }
+        .stack{
+            width: 60%;
+            
+            grid-template-columns: repeat(1,70%);
+            justify-content: space-between;
+            
+        }
+        .techstack h1{
+            font-size: 2.1rem;
+        }
+        .stack .tech:nth-child(2) img{
+            margin-left: -2.5rem;
+         }
+         .stack .tech:nth-child(3) img{
+            width: 5rem;
+            margin-top: -2rem;
+         }
+         .stack .tech:nth-child(4) img{
+             margin-top: 0rem;
+         }
+         .stack .tech:nth-child(5) img{
+             width: 8rem;
+             margin-left: -1.5rem;
+
+         }
     }
