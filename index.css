@@ -309,6 +309,36 @@
 		width: calc(250px * 17);
 	} */
 
+    .softstack{
+        width: 100%;
+        background-color: #2B313D;
+    }
+
+    .softstack>h1{
+        color: #D4CEC2;
+        font-size: 5rem;
+        text-align: center;
+        padding: 3rem;
+    }
+    .softstack .soft{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding-bottom: 3rem;
+    }
+    .softskill .box{
+        height: 5rem;
+    }
+    .softstack .soft .box p{
+        color: #D4CEC2;
+        font-size: 2rem;
+        padding: 0;
+    }
+
     .contactMe{
         background-color: #2B313D;
     }
