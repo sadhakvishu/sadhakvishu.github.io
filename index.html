@@ -7,7 +7,7 @@
     <title>Vishal Bhargava</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
-    
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 </head>
@@ -226,11 +226,52 @@
                
         </div>
     </section>
+<!-- start count stats -->
+<!-- start count stats -->
 
+<section id="counter-stats" class="wow fadeInRight" data-wow-duration="1.4s">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-code" aria-hidden="true"></i>
+				<div class="counting" data-count="900000">1200+</div>
+				<h5>Hours of coding</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-check" aria-hidden="true"></i>
+				<div class="counting" data-count="280">3</div>
+				<h5>Projects done</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<div class="counting" data-count="75">250+</div>
+				<h5>Commits</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-coffee" aria-hidden="true"></i>
+				<div class="counting" data-count="999">250</div>
+				<h5>Cups of coffee</h5>
+			</div>
+
+
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+
+</section>
+
+<!-- end cont stats -->
+
+<!-- end cont stats -->
 
 <div class="calendarDiv">
 
-    <h1>Statistics
+    <h1>Github Stats
 
     </h1>
    
@@ -283,6 +324,34 @@
 
 <script >
 GitHubCalendar(".calendar", "sadhakvishu", { responsive: true,global_stats:false,tooltips: true});
+
+// number count for stats, using jQuery animate
+// number count for stats, using jQuery animate
+
+$('.counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 3000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+
+});
 </script>
 </html>
 

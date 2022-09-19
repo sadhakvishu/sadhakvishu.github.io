@@ -490,7 +490,42 @@
     .abra{
         color: #E3E3E3;
     }
-
+    @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+    
+    
+    
+    /*/ start count stats /*/ 
+    
+    section#counter-stats {
+        display: flex;
+        justify-content: center;
+        margin: 100px 0;
+        color: #56617A;
+       
+    }
+    .row{
+        display: flex;
+        gap: 5rem;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .stats {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 700;
+      /* font-family: 'Montserrat', sans-serif; */
+    }
+    
+    .stats .fa {
+      color: #56617A;
+      font-size: 3rem;
+    }
+    
+    /*/ end count stats /*/
     @media all and (max-width: 920px)  {
         body{
             width: 100%;
