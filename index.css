@@ -228,6 +228,7 @@
     .stack .tech{
         /* border: 1px solid blue; */
         margin: 1rem;
+        position: relative;
 
     }
     .stack .tech:nth-child(1) img{
@@ -235,6 +236,9 @@
     }
     .stack .tech:nth-child(2) img{
        width: 12.5rem;
+       position: absolute;
+       left: -3rem;
+       bottom: -2rem;
     }
     .stack .tech:nth-child(3) img{
        width: 5rem;
@@ -589,7 +593,7 @@
         }
        
         .stack{
-            width: 30%;
+            width: 50%;
             
             grid-template-columns: repeat(1,100%);
             justify-content: space-between;
@@ -598,12 +602,18 @@
         .techstack h1{
             font-size: 2.1rem;
         }
+        .stack .tech:nth-child(1) img{
+            margin-bottom: 2rem;
+        }
         .stack .tech:nth-child(2) img{
-            margin-left: -2.5rem;
+            margin-left: -1rem;
+            margin-top: 1rem;
          }
          .stack .tech:nth-child(3) img{
             width: 5rem;
-            margin-top: -2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+
          }
          .stack .tech:nth-child(4) img{
              margin-top: 0rem;
