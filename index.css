@@ -2,6 +2,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: calluna-sans, Helvetica, "Helvetica Neue", Arial;
     }
  html{
     scroll-behavior: smooth;
@@ -149,7 +150,7 @@
     .projects .fa-link{
         color: #F7F7F7;
     position: absolute;
-    right: 4rem;
+    right: 5rem;
     top: 2.5rem;
     transition: .25s all ease-in-out;
     }
@@ -525,7 +526,7 @@
             grid-template-columns: repeat(1,1fr);
         }
         .contact h1{
-            font-size: 2rem;
+            font-size: 4.5rem;
 
         }
 
@@ -588,7 +589,7 @@
             margin-bottom: 1rem;
         }
         .projects .fa-link{ 
-            right: 4.2rem;
+            right: 5.2rem;
             top: 4.8rem;
         }
        
@@ -599,8 +600,23 @@
             justify-content: space-between;
             
         }
+        #projects> h1{
+            font-size: 3rem;
+        }
         .techstack h1{
-            font-size: 2.1rem;
+            font-size: 2rem;
+        }
+        .about h1{
+            font-size: 3rem;
+        }
+        .softstack h1{
+            font-size: 3rem;
+        }
+        .softstack .soft p{
+            font-size: 1.5rem;
+        }
+        .contact h1{
+            font-size: 2.5rem;
         }
         .stack .tech:nth-child(1) img{
             margin-bottom: 2rem;
@@ -638,8 +654,9 @@
     
         }
         .calendarDiv h1{
-            font-size: 2rem;
+            font-size: 3rem;
             padding: 0rem;
+            padding-bottom: 2rem;
         }
     
         .calendar{
