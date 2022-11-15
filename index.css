@@ -543,7 +543,7 @@
         cursor: default;
         color: #56617A;
     }
-    /* .calendarDiv{
+    .calendarDiv{
         border: 10px solid red;
         background-color: #F7F7F7;
         color: #56617A;
@@ -551,7 +551,7 @@
         padding-bottom: 4rem;
 
     }
-    .calendarDiv h1{
+    /* .calendarDiv h1{
         font-size: 5rem;
         padding: 2rem;
     }
