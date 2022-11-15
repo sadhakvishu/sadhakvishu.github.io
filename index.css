@@ -1,4 +1,7 @@
-    *{
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+  *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -53,9 +56,84 @@
         background-color: #FCF1F1;
         transition: 0.25s ease-in-out ;
         cursor: pointer;
-        /* margin-bottom: -5px; */
+        margin-bottom: -5px;
         border-bottom: 1px solid #F16856;
-    }
+    } 
+    /* .max-width {
+        max-width: 1300px;
+        padding: 0 80px;
+        margin: auto;
+      }
+    .navbar {
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        padding: 10px 0;
+        font-family: "Ubuntu", sans-serif;
+        transition: all 0.3s ease;
+        background-color: #EBEFF3;
+      }
+      
+      .navbar.sticky {
+        padding: 15px 0;
+        background: rgb(19, 131, 73);
+      }
+      
+      .navbar .max-width {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+      }
+      
+      .navbar .logo a {
+        color: rgb(0, 0, 0);
+        font-size: 35px;
+        font-weight: 600;
+      }
+      
+      .navbar .logo a span {
+        color: rgb(0, 0, 0);
+        transition: all 0.3s ease;
+      }
+      
+      .navbar.sticky .logo a span {
+        color: #fff;
+      }
+      
+      .navbar .menu{
+        margin-right: -30px;
+      }
+      
+      .navbar .menu li {
+        list-style: none;
+        display: inline-block;
+      }
+      
+      .navbar .menu li a {
+        display: block;
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.3s ease;
+      }
+      
+      .navbar .menu li a:hover {
+        color: rgb(0, 0, 0);
+      }
+      
+      .navbar.sticky .menu li a:hover {
+        color: rgb(0, 0, 0);
+      } */
+      
+      /* menu btn styling */
+      /* .menu-btn {
+        color: rgb(0, 0, 0);
+        font-size: 23px;
+        cursor: pointer;
+        display: none;
+      } */
+      /* menu btn styling */
 
     .landing{
         height: 88vh;
@@ -64,7 +142,7 @@
         position: relative;
         font-family: calluna-sans, Helvetica, "Helvetica Neue", Arial;
     }
-    .landing>h1,p,span{
+    .landing>h1,.landing>p,.landing>span{
         color: #F7F7F7;
         text-align: center;
         padding-top: 40vh;
@@ -465,8 +543,8 @@
         cursor: default;
         color: #56617A;
     }
-    .calendarDiv{
-        /* border: 10px solid red; */
+    /* .calendarDiv{
+        border: 10px solid red;
         background-color: #F7F7F7;
         color: #56617A;
         text-align: center;
@@ -489,10 +567,8 @@
     }
     .abra{
         color: #E3E3E3;
-    }
-    @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
-    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
-    
+    } */
+
     
     
     /*/ start count stats /*/ 
@@ -683,7 +759,7 @@
             gap: 3rem;
         }
 
-        .calendarDiv{
+        /* .calendarDiv{
           
             padding-bottom: 0rem;
     
@@ -705,7 +781,7 @@
         }
         .abra{
             color: #E3E3E3;
-        }
+        } */
     }
 
 
