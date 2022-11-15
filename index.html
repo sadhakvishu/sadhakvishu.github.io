@@ -31,7 +31,7 @@
                 <li><a href="#techstack">Skills</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="./Resources/Projects/Vishal-Bhargava-Resume.pdf" download="Vishal-Bhargava-Resume">Resume</a></li>
+                <li><a rel="noreferrer" class="resume-dwn" href="./Resources/Projects/Vishal-Bhargava-Resume.pdf" download="Vishal-Bhargava-Resume">Resume</a></li>
             </ul>
         </div>
     </div>
@@ -376,6 +376,11 @@ different projects.
 </body>
 
 <script >
+
+document.querySelector(".resume-dwn").addEventListener("click" ,function(){
+        window.open("Vishal-Bhargava-Resume.pdf","_blank");
+});
+
 GitHubCalendar(".calendar", "sadhakvishu", { responsive: true,global_stats:true,tooltips: true});
 
 // number count for stats, using jQuery animate
